@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaper_one_piece_1"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/scoreText"
+        android:layout_marginEnd="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:textAlignment="textEnd"
+        android:textColor="@color/purple"
+        android:textSize="24sp">
+
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_below="@+id/scoreText"
+        android:layout_above="@+id/buttonToss"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/diceImage"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:src="@drawable/dice1"
+            android:tintMode="src_in"
+            app:tint="@color/white">
+
+        </ImageView>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/buttonToss"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="24dp"
+        android:textAlignment="center"
+        android:text="jogar dado"
+        android:textColor="@color/white"
+        android:layout_alignParentBottom="true"
+        android:textStyle="bold"
+        android:textSize="30sp">
+
+    </Button>
+
+
+</RelativeLayout>
