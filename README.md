@@ -1,5 +1,8 @@
 # Dice Roller App
 
+![Java](https://img.shields.io/badge/Java-17-blue)
+![Android Studio](https://img.shields.io/badge/Android%20Studio-2022.3.1-brightgreen)
+
 ## Overview
 This Android app is a simple Dice Roller. When the user taps the "Jogar Dado" button, the app generates a random number between 1 and 6, simulating the roll of a six-sided die. The result is displayed both as a numeric score and as an image representing the rolled die.
 
